@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row scraped">
+        <div class="col-sm-12">
+            <div class="article">
+                <h3 class="text-center yellow">Oh uh. Looks like we don't have any new articles.</h3>
+                {{#each articles}}
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 id='artTitle' class="panel-title">{{this.title}}</h3>
+                        <button type="button" class="btn btn-success save-art float-right">save article</button>
+                    </div>
+                    <div id='artPost' class="panel-body"> {{this.post}} </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</div>
