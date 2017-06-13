@@ -20,10 +20,6 @@ $(".article").on("click", ".save-art", function (event) {
         });
 });
 
-$('.scrap').on('click', function(){
-    $('.yellow');
-})
-
 $(document).on('click', '.note-modal', function (event) {
     event.preventDefault();
 
