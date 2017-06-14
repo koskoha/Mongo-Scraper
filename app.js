@@ -28,7 +28,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Database configuration with mongoose
-mongoose.connect("mongodb://localhost/mongo-scraping");
+mongoose.connect("mongodb://heroku_d8kn63vg:p211jce467afesaukdtg9utglc@dbh84.mlab.com:27847/heroku_d8kn63vg");
 var db = mongoose.connection;
 
 // Show any mongoose errors
